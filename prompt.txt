@@ -11,3 +11,11 @@ destaco su diseño minimalista y buen distribución de información.
 muy util.
 
 
+
+segundo prompt
+
+analiza #file:index.html y #file:style.css y, solo ocupando esos dos lenguajes,haz que las todas las imagens (tanto del producto como las del footer en redes sociales) se ajusten sin ser recortadas. Quiero que las imagenes del footer se ven pequeñas, como si fuese un logo. Abajo de ese logo su respectivo nombre. Las imagenes en la tarjeta deben estar completas. 
+
+Este prompt me sirvió para hacer que las imagenes encajaran mejor en el texto y el diseño se apreciara mejor.
+Adicionalmente generé un cambiod e colores para que combinara mejor el producto en cuestión.
+

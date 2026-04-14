@@ -20,7 +20,7 @@ body {
 
 /* ==================== ENCABEZADO Y MENÚ ==================== */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #2a6331 0%, #000000 100%);
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@ body {
 
 /* ==================== SECCIÓN HERO ==================== */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5dce6c 0%, #000000 100%);
     color: white;
     padding: 8rem 0;
     text-align: center;
@@ -168,17 +168,20 @@ body {
     height: 300px;
     overflow: hidden;
     background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 
 .info-card:hover .card-image img {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .card-content {
@@ -188,11 +191,11 @@ body {
 .card-content h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #667eea;
+    color: #48cf7c;
 }
 
 .card-content p {
-    color: #555;
+    color: #080808;
     line-height: 1.8;
 }
 
@@ -210,13 +213,13 @@ body {
 }
 
 .spec-item {
-    background: white;
+    background: rgb(0, 0, 0);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #43b856;
 }
 
 .spec-item:hover {
@@ -226,12 +229,12 @@ body {
 
 .spec-item h4 {
     font-size: 1.2rem;
-    color: #667eea;
+    color: #54da75;
     margin-bottom: 0.7rem;
 }
 
 .spec-item p {
-    color: #666;
+    color: #f7f7f7;
     font-size: 0.95rem;
 }
 
@@ -247,6 +250,44 @@ body {
 .footer p {
     margin: 0;
     font-size: 0.9rem;
+}
+
+.footer .social-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.footer .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.footer .social-item a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.footer .social-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+
+.footer .social-item span {
+    display: block;
+    color: #f0f0f0;
+    font-size: 0.85rem;
 }
 
 /* ==================== RESPONSIVE ==================== */

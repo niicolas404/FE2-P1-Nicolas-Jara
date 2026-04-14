@@ -1,0 +1,13 @@
+primer prompt
+
+usa #file:index.html y #file:style.css para generar un codigo prientada a presentar un producto al mercado. Esta es una nueva consola de videojuegos. Esta se llama "polistation sga". El sitio debe contener el nombre del producto como encabezado. Abajo, debe haber un menú con "inicio, consola, componentes". También es importante contar con una sección destacad del producto. En la sección "consola" debe haber una lista en donde yo pueda colocar la imagen del producto por medio de una tarjeta informativa. 
+Esta tarjeta debe estar acompañada por un párrafo en donde se pueda explicar el producto.
+Es sumamente importante que trabajemos solo con HTML y CSS. Cualquier otro lenguaje de programación se debe evitar para esta tarea- 
+
+
+Este prompt me permitió  obtener un base estructural básica pero también completa para la página. 
+destaco su diseño minimalista y buen distribución de información. 
+
+muy util.
+
+

@@ -199,6 +199,29 @@ body {
     line-height: 1.8;
 }
 
+/* ==================== SECCIÓN EL PODER DE LA TECNOLOGÍA ==================== */
+.power-section {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+
+.power-text {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.power-text p {
+    margin-bottom: 1.5rem;
+}
+
+.power-section .section-subtitle {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
 /* ==================== SECCIÓN COMPONENTES ==================== */
 .componentes-section {
     padding: 5rem 0;
